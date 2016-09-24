@@ -67,7 +67,7 @@ void InicioPantalla(){
       SendWord_GLCD(WRITE_DATA,0x50);
       delay_us(75);
       
-      
+      /*
       SendWord_GLCD(WRITE_INST,0x90);
       delay_us(75);
       SendWord_GLCD(WRITE_DATA,0x30);
@@ -109,6 +109,6 @@ void InicioPantalla(){
       SendWord_GLCD(WRITE_DATA,0x36);
       delay_us(75);
       SendWord_GLCD(WRITE_DATA,0x36);
-      delay_us(75);
+      delay_us(75);*/
    }
 }
